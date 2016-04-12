@@ -19,7 +19,7 @@ describe Persistent::StorageSQLite do
 
   context "when released" do
     it 'has a version number' do
-      expect(Persistent::Cache::Storage::Sqlite::VERSION).not_to be nil
+      expect(Persistent::Storage::Sqlite::VERSION).not_to be nil
     end
   end
 

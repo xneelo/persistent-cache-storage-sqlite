@@ -5,7 +5,7 @@ require 'persistent-cache/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "persistent-cache-storage-sqlite"
-  spec.version       = Persistent::Cache::Storage::Sqlite::VERSION
+  spec.version       = Persistent::Storage::Sqlite::VERSION
   spec.authors       = ["Ernst Van Graan"]
   spec.email         = ["ernst.van.graan@hetzner.co.za"]
 

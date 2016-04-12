@@ -5,7 +5,7 @@ require "base64"
 require "eh/eh"
 
 module Persistent
-  class StorageSQLite < Persistent::Cache::StorageApi::API
+  class StorageSQLite < Persistent::Storage::API
     DB_TABLE = "key_value" unless defined? DB_TABLE; DB_TABLE.freeze
     DB_TIMEOUT = 30000 unless defined? DB_TIMEOUT; DB_TIMEOUT.freeze
 

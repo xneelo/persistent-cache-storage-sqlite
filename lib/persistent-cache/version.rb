@@ -1,9 +1,7 @@
 module Persistent
-  module Cache
-    module Storage
-      module Sqlite
-        VERSION = "0.1.1"
-      end
+  module Storage
+    module Sqlite
+      VERSION = "0.1.2"
     end
   end
 end

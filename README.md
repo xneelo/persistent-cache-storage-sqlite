@@ -1,4 +1,4 @@
-# Persistent::Cache::StorageSQLite
+# Persistent::StorageSQLite
 
 This gem provides a SQLite storage back-end to Persistent::Cache. Please see https://rubygems.org/gems/persistent-cache.
 
