@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'byebug', "~> 11.0"
   spec.add_dependency "sqlite3", "~> 1.4"
   spec.add_dependency "persistent-cache-storage-api", "~> 0.1"
-  spec.add_dependency "eh", "~> 0.1"
+  spec.add_dependency "eh", "~> 1.0.0"
 end
