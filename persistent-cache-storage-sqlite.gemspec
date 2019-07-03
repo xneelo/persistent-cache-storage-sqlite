@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.8'
   spec.add_development_dependency 'coveralls', '~> 0.8'
-  spec.add_development_dependency 'byebug', '~> 8.0'
+  spec.add_development_dependency 'byebug', '~> 9.0'
   spec.add_dependency 'sqlite3', '~> 1.4'
   spec.add_dependency 'persistent-cache-storage-api', '~> 0.1'
   spec.add_dependency 'eh', '~> 1.0.0'
