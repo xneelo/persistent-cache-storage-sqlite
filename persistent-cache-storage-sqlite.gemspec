@@ -6,12 +6,12 @@ require 'persistent-cache/version'
 Gem::Specification.new do |spec|
   spec.name          = 'persistent-cache-storage-sqlite'
   spec.version       = Persistent::Storage::Sqlite::VERSION
-  spec.authors       = ['Hetzner Pty Ltd']
-  spec.email         = ['kernels@hetzner.co.za']
+  spec.authors       = ["Ernst Van Graan", "xneelo (Pty) Ltd"]
+  spec.email         = ["ernst.vangraan@gmail.com"]
 
   spec.summary       = %q{Provides a SQLite storage back-end to Persistent::Cache}
   spec.description   = %q{Provides a SQLite storage back-end to Persistent::Cache}
-  spec.homepage      = 'https://github.com/hetznerZA/persistent-cache-storage-sqlite'
+  spec.homepage      = 'https://github.com/xneelo/persistent-cache-storage-sqlite'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
