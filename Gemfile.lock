@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    persistent-cache-storage-sqlite (0.1.4)
+    persistent-cache-storage-sqlite (0.1.5)
       eh (~> 1.0.0)
       persistent-cache-storage-api (~> 0.1)
       sqlite3 (~> 1.4)
