@@ -1,8 +1,14 @@
-require 'coveralls'
-Coveralls.wear!
+require 'simplecov'
+require 'simplecov-lcov'
 
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
+SimpleCov.start do
+  add_filter '/spec/'
+end
+
 require 'persistent-cache/storage_sqlite'
+require 'tempfile'
 
 def get_database_name
   path = Tempfile.new("persistent-cache-spec-testdb").path

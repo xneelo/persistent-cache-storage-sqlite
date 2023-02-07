@@ -1,9 +1,8 @@
 # Persistent::StorageSQLite
 
-[![Gem Version](https://badge.fury.io/rb/persistent-cache-storage-sqlite.png)](https://badge.fury.io/rb/persistent-cache-storage-sqlite)
-[![Build Status](https://travis-ci.org/evangraan/persistent-cache-storage-sqlite.svg?branch=master)](https://travis-ci.org/evangraan/persistent-cache-storage-sqlite)
-[![Coverage Status](https://coveralls.io/repos/github/evangraan/persistent-cache-storage-sqlite/badge.svg?branch=master)](https://coveralls.io/github/evangraan/persistent-cache-storage-sqlite?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/73ee400089c54d80afb0a6125f7235c7)](https://www.codacy.com/app/ernst-van-graan/persistent-cache-storage-sqlite?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=evangraan/persistent-cache-storage-sqlite&amp;utm_campaign=Badge_Grade)
+[![Gem Version](https://badge.fury.io/rb/persistent-cache-storage-sqlite.svg)](https://badge.fury.io/rb/persistent-cache-storage-sqlite)
+[![Build Status](https://github.com/xneelo/persistent-cache-storage-sqlite/actions/workflows/test.yml/badge.svg)](https://github.com/xneelo/persistent-cache-storage-sqlite/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/xneelo/persistent-cache-storage-sqlite/badge.svg?branch=master)](https://coveralls.io/github/xneelo/persistent-cache-storage-sqlite?branch=master)
 
 This gem provides a SQLite storage back-end to Persistent::Cache. Please see https://rubygems.org/gems/persistent-cache.
 
